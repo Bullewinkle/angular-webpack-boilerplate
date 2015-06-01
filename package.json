@@ -1,0 +1,41 @@
+{
+  "name": "webpack-angular",
+  "version": "0.0.1",
+  "dependencies": {
+    "coffee-script": "",
+    "express": "",
+    "jade": "",
+    "stylus": ""
+  },
+  "devDependencies": {
+    "babel-core": "5.2.17",
+    "babel-loader": "5.0.0",
+    "browser-sync": "",
+    "coffee-loader": "",
+    "css-loader": "",
+    "exports-loader": "",
+    "extract-text-webpack-plugin": "^0.8.0",
+    "file-loader": "^0.8.1",
+    "gulp": "",
+    "gulp-jade": "",
+    "gulp-load-plugins": "",
+    "gulp-plumber": "",
+    "gulp-util": "",
+    "html-loader": "",
+    "html-webpack-template": "^2.0.0",
+    "imports-loader": "",
+    "jade-loader": "",
+    "lodash": "",
+    "minimist": "",
+    "optimist": "",
+    "raw-loader": "",
+    "rimraf": "",
+    "run-sequence": "",
+    "style-loader": "",
+    "stylus-loader": "",
+    "url-loader": "^0.5.5",
+    "webpack": "",
+    "webpack-core": "",
+    "json-server": ""
+  }
+}

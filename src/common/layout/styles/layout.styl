@@ -1,0 +1,49 @@
+headerHeight = 80px
+footerHeight = 30px
+horizontalPadding = 20px
+
+#header, #footer, #body
+	width 100%
+	height 100%
+	
+#header, #footer
+	position absolute
+	left 0
+	padding horizontalPadding*0 horizontalPadding
+	text-align center
+	overflow hidden
+
+#header
+	top 0
+	height headerHeight
+	padding-top 10px
+	box-shadow 0px 0px 5px 2px black, 0px 0px 30px 8px black
+	.menu
+		.menu-item
+			margin 0 5px
+			display inline-block	
+
+#footer
+	bottom 0
+	height footerHeight	
+	line-height footerHeight
+	box-shadow 0px 0px 5px 2px black, 0px 0px 30px 8px black
+	
+#body
+	padding-top	headerHeight
+	padding-bottom footerHeight
+	margin 0 auto
+	max-height 100%	
+	max-width 960px
+	min-width 320px
+	
+#workspace
+	padding horizontalPadding
+	height 100%	
+	width 100%
+	display flex
+	flex-flow row wrap
+	justify-content flex-start
+	overflow-y auto	
+	-webkit-overflow-scrolling touch
+		

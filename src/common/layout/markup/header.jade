@@ -1,0 +1,4 @@
+header#header(ng-controller="HeaderController as header") HEADER
+	ul.menu
+		li.menu-item(ng-repeat="link in menu")
+			a(href="{{link.href}}") {{link.text}}
