@@ -1,5 +1,5 @@
 {
-  "nextFreeModuleId": 68,
+  "nextFreeModuleId": 93,
   "modules": {
     "byIdentifier": {
       "../bower_components/angular-route/angular-route.js": 1,
@@ -70,7 +70,33 @@
       "../node_modules/jade-loader/stringify.loader.js!/Users/macbookpro/Projects/ng-training/src/common/layout/markup/footer.jade": 64,
       "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/ng-training/src/common/layout/markup/header.jade": 65,
       "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/ng-training/src/common/layout/markup/body.jade": 66,
-      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/ng-training/src/common/layout/markup/footer.jade": 67
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/ng-training/src/common/layout/markup/footer.jade": 67,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/index.coffee": 0,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/index.coffee": 68,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/scripts/index.coffee": 69,
+      "../node_modules/style-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/css-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/stylus-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/styles/index.styl": 70,
+      "../node_modules/css-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/stylus-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/styles/index.styl": 71,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/config.coffee": 72,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/scripts/controllers.coffee": 73,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/index.coffee": 74,
+      "../node_modules/style-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/css-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/stylus-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/styles/layout.styl": 75,
+      "../node_modules/css-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/stylus-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/styles/layout.styl": 76,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/layout.jade": 77,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/app.coffee": 78,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/pages/about.jade": 79,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/pages/contacts.jade": 80,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/pages/home.jade": 81,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/pages/not-found.jade": 82,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/pages/posts.jade": 83,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/templates/pages/test.jade": 84,
+      "../node_modules/jade-loader/stringify.loader.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/header.jade": 85,
+      "../node_modules/jade-loader/stringify.loader.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/body.jade": 86,
+      "../ignored /Users/macbookpro/Projects/angular-webpack-boilerplate/node_modules/jade/lib fs": 87,
+      "../node_modules/jade-loader/stringify.loader.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/footer.jade": 88,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/header.jade": 89,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/body.jade": 90,
+      "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/footer.jade": 91,
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/scripts/router.coffee": 92
     }
   },
   "nextFreeChunkId": 1,

@@ -8,5 +8,5 @@ app.use '/assets', express.static assets
 app.all '/*', (req, res) ->
 	res.sendFile(path.join(__dirname, "dist/index.html"))
 
-app.listen 9000, ->
+app.listen 9999, ->
 	console.log '!!!!!!!!!!!!!!! SERVER STARTED !!!!!!!!!!!!!!!'

@@ -1,10 +1,15 @@
 path = require 'path'
 
 controllers =
-	'AppController': ($scope, $route, $routeParams, $location) ->
+	'AppController': ($scope, $route, $routeParams, $location, $http) ->
 		$scope.$route = $route
 		$scope.$location = $location
 		$scope.$routeParams = $routeParams
+		$scope.num = 0
+#		callback = =>
+#			$http.get "/num/#{++$scope.num}"
+#		setInterval callback, 200
+
 
 	'HeaderController': ($scope) ->
 		$scope.menu = [

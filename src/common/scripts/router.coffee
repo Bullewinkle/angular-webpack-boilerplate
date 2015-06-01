@@ -1,35 +1,33 @@
 appTemplates = require '../templates'
-requires = [
-	'$routeProvider',
-	'$locationProvider'
-]
-configFn = ($routeProvider, $locationProvider) ->
+
+angular.module('app').config [ '$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
 	$routeProvider
 
 	.when '/',
-		controller: 'NavigationController'
+		controller: 'AppController'
+		controllerAs: 'root'
 		template: appTemplates('./home.jade') page: 'home'
 	.when '/posts',
-		controller: 'PostsController'
-		controllerAs: 'c'
+		controller: 'AppController'
+		controllerAs: 'root'
 		template: appTemplates('./posts.jade') page: 'posts'
 	.when '/about',
-		controller: 'AboutController'
-		controllerAs: 'c'
+		controller: 'AppController'
+		controllerAs: 'root'
 		template: appTemplates('./about.jade') page: 'about'
 	.when '/contacts',
-		controller: 'ContactsController'
-		controllerAs: 'c'
+		controller: 'AppController'
+		controllerAs: 'root'
 		template: appTemplates('./contacts.jade') page: 'contacts'
 	.when '/test',
-		controller: 'TestController'
-		controllerAs: 'c'
+		controller: 'AppController'
+		controllerAs: 'root'
 		template: appTemplates('./test.jade') page: 'test'
 
 	.otherwise
-		controller: 'NavigationController'	
-		controllerAs: 'c'
-		template: appTemplates('./not-found.jade')
+			controller: 'AppController'
+			controllerAs: 'root'
+			template: appTemplates('./not-found.jade')
 
 	$locationProvider.html5Mode
 		enabled: true
@@ -37,4 +35,4 @@ configFn = ($routeProvider, $locationProvider) ->
 		rewriteLinks: true
 	return
 
-angular.module('app').config requires, configFn
+]
