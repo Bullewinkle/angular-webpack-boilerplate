@@ -1,7 +1,7 @@
 div
 	h1 #{page}
 	
-	div {{c.postName}}
+	div {{root.postName}}
 
-	form(ng-submit="c.postName = 'hi'")
-		input(ng-model="c.postName")
+	form(ng-submit="root.postName = 'hi'")
+		input(ng-model="root.postName")

@@ -1,5 +1,5 @@
 {
-  "nextFreeModuleId": 93,
+  "nextFreeModuleId": 94,
   "modules": {
     "byIdentifier": {
       "../bower_components/angular-route/angular-route.js": 1,
@@ -96,7 +96,8 @@
       "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/header.jade": 89,
       "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/body.jade": 90,
       "../node_modules/jade-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/layout/markup/footer.jade": 91,
-      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/scripts/router.coffee": 92
+      "../node_modules/coffee-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/common/scripts/router.coffee": 92,
+      "../node_modules/file-loader/index.js!/Users/macbookpro/Projects/angular-webpack-boilerplate/src/assets/images/1.jpg": 93
     }
   },
   "nextFreeChunkId": 1,
