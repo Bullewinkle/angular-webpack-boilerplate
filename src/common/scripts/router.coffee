@@ -2,7 +2,6 @@ appTemplates = require '../templates'
 
 angular.module('app').config [ '$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
 	$routeProvider
-
 	.when '/',
 		controller: 'AppController'
 		controllerAs: 'root'
@@ -57,6 +56,6 @@ angular.module('app').config [ '$routeProvider', '$locationProvider', ($routePro
 		enabled: true
 		requireBase: false
 		rewriteLinks: true
-	return
+
 
 ]
