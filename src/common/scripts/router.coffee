@@ -7,6 +7,15 @@ angular.module('app').config ['$stateProvider', '$urlRouterProvider', ($statePro
 		controllerAs: 'root'
 		template: appTemplates('./home.jade') page: 'home'
 
+	.when '/posts',
+		controller: 'AppController'
+		controllerAs: 'root'
+		template: appTemplates('./posts.jade') page: 'posts'
+		resolve:
+			delay: ($q, $timeout) ->
+				delay = $q.defer()
+				$timeout delay.resolve, 500
+				delay.promise
 
 	.when '/about',
 		controller: 'AppController'
