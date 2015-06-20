@@ -6,6 +6,10 @@ angular.module('app').config ['$stateProvider', '$urlRouterProvider', ($statePro
 		controller: 'AppController'
 		controllerAs: 'root'
 		template: appTemplates('./home.jade') page: 'home'
+	.when '/',
+		controller: 'AppController'
+		controllerAs: 'root'
+		template: appTemplates('./home.jade') page: 'home'
 
 	.when '/posts',
 		controller: 'AppController'
