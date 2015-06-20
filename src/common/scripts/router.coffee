@@ -1,7 +1,7 @@
 appTemplates = require '../templates'
 
-angular.module('app').config [ '$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
-	$routeProvider
+angular.module('app').config ['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) ->
+	$urlRouterProvider
 	.when '/',
 		controller: 'AppController'
 		controllerAs: 'root'
