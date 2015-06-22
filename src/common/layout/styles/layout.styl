@@ -25,6 +25,15 @@ horizontalPadding = 20px
 		.menu-item
 			margin 0 5px
 			display inline-block
+			a
+				text-decoration: none
+				display inline-block
+
+			&:hover a
+				border-bottom: 1px solid
+
+			&.active a
+				border-bottom: 4px double
 
 #footer
 	bottom 0

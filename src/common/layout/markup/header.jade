@@ -5,5 +5,7 @@ header#header(ng-controller="HeaderController as header") HEADER
 			path(fill='#000', d='M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z')
 				animatetransform(attributetype='xml', attributename='transform', type='rotate', from='0 20 20', to='360 20 20', dur='0.5s', repeatcount='indefinite')
 	ul.menu
-		li.menu-item(ng-repeat="link in menu")
-			a(href="{{link.href}}") {{link.text}}
+		li.menu-item(ng-repeat="link in menu" ui-sref-active="active")
+			a(ui-sref="{{link.sref}}" ) {{link.text}}
+		li.menu-item(ui-sref-active="active")
+			a(href="/unknown" ) Unknown url

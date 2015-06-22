@@ -35,9 +35,9 @@ gulp.task 'browser-sync', (cb) ->
 	]
 	options =
 		browser: []
-		port: 8888
-		server:
-			baseDir: 'dist'
+		proxy: "localhost:#{require('./config/app').port}"
+	#		server:
+	#			baseDir: 'dist'
 	browserSync files, options, cb
 
 

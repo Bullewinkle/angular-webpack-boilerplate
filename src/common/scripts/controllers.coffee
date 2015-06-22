@@ -1,34 +1,26 @@
 path = require 'path'
 
-controllers =
-	'AppController': ($route, $routeParams, $location, $http) ->
-		@$route = $route
+module.exports = controllers =
+	'AppController': ($location, $http) ->
 		@$location = $location
-		@$routeParams = $routeParams
-
 		@postName = 'post name'
 		@num = 0
 
 
 	'HeaderController': ($scope) ->
 		$scope.menu = [
-			href: '/'
+			sref: 'home'
 			text: 'Home'
 		,
-			href: '/posts'
+			sref: 'posts'
 			text: 'Posts'
 		,
-			href: '/about'
+			sref: 'about'
 			text: 'About'
 		,
-			href: '/contacts'
+			sref: 'contacts'
 			text: 'Contacts'
 		,
-			href: '/test'
+			sref: 'test'
 			text: 'Test page'
-		,
-			href: '/wat?'
-			text: 'Wat?'
 		]
-
-module.exports =  controllers
