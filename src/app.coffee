@@ -6,3 +6,6 @@ app.controller name, constructor for name, constructor of require './common/scri
 app.config require './common/scripts/config.coffee'
 app.run require './common/scripts/run.coffee'
 
+
+#window.webWorker = new Worker require('common/scripts/worker.jsx')
+#console.log require('common/scripts/worker.jsx')

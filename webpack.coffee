@@ -1,5 +1,5 @@
 path = require('path')
-
+console.log '===============', __dirname
 SRC = path.join(__dirname, 'src')
 DIST = path.join(__dirname, 'dist')
 
@@ -13,6 +13,8 @@ module.exports =
 
 	entry:
 		"./index.coffee"
+
+	target: 'webworker'
 
 	resolve:
 		root: SRC

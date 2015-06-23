@@ -1,5 +1,5 @@
+console.log 'HI ===================================='
 path = require('path')
-
 SRC = path.join(__dirname, 'src')
 DIST = path.join(__dirname, 'dist')
 

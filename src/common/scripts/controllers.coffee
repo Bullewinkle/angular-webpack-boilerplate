@@ -1,6 +1,6 @@
 path = require 'path'
 
-module.exports = controllers =
+controllers =
 	'AppController': ($location, $http) ->
 		@$location = $location
 		@postName = 'post name'
@@ -24,3 +24,5 @@ module.exports = controllers =
 			sref: 'test'
 			text: 'Test page'
 		]
+
+module.exports = controllers
